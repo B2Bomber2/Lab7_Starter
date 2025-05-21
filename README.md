@@ -9,4 +9,11 @@ You should manually run tests to make sure you are not missing anything or pushi
 2. Would you use an end to end test to check if a function is returning the correct output? (yes/no)
 no 
 
- 
+3. What is the difference between navigation and snapshot mode?
+
+Navigation is used to record the performance of a full page load. So, the time the URL is requested to when everything finishes loading is recorded. Snapshot is is used to record the performance from a specific moment in time without navigating away from the current page. 
+
+4. Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+- The site could improve its accessibility by including the lang attribute in its HTML. 
+- The site could improve its accessibility by also using font sizes legible for mobile devices and for people with poor vision. 
+- Since the site is a shop, it should improve its search engine optimization to bring in more customers. There should be meta tags and descriptions in its HTML. 
